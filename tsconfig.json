@@ -27,7 +27,7 @@
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.jsx"
 , "src/app/(auth)/sign-in/[[...sign-in]]/page.jsx", "src/app/(auth)/sign-up/[[...sign-up]]/page.jsx"  ],
   "exclude": [
     "node_modules"
