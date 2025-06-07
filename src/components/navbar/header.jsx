@@ -19,13 +19,13 @@ const Header = () => {
     },
     {
       title: "Curate Quiz",
-      path: "/quiz",
+      path: "/assesment",
       icon: Book,
       description: "Create engaging quizzes for your students"
     },
     {
       title: "Training Videos", 
-      path: "/videos",
+      path: "/resources",
       icon: Video,
       description: "Watch instructional videos and training materials"
     },
