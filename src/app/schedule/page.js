@@ -15,7 +15,7 @@ const SchedulePage = () => {
 
   // Mock volunteer data - replace with actual volunteer ID from your auth system
   const volunteer = {
-    name: "Sarah Johnson",
+    name: "Harshita Ranka",
     id: "volunteer_001",
     avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
     totalHours: 156,
@@ -212,11 +212,6 @@ const SchedulePage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
-              <img 
-                src={volunteer.avatar} 
-                alt={volunteer.name}
-                className="w-16 h-16 rounded-full border-2 border-orange-500"
-              />
               <div>
                 <h1 className="text-3xl font-bold text-gray-800">{volunteer.name}</h1>
                 <p className="text-orange-600">Volunteer Schedule</p>

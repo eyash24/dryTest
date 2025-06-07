@@ -34,6 +34,12 @@ const Header = () => {
       path: "/games", 
       icon: Gamepad,
       description: "Access interactive educational games"
+    },
+    {
+      title: "Attendance",
+      path: "/attendence", 
+      icon: Gamepad,
+      description: "Access interactive educational games"
     }
   ];
 
@@ -48,7 +54,7 @@ const Header = () => {
             <span className="text-primary-foreground font-bold text-lg">ET</span>
           </div>
           <div>
-            <h1 className="text-xl font-semibold text-foreground">EduTeach Volunteer</h1>
+            <h1 className="text-xl font-semibold text-foreground">Harshita</h1>
             <p className="text-sm text-muted-foreground">Empowering Education Together</p>
           </div>
         </div>
